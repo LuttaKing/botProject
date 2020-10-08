@@ -43,8 +43,8 @@ def check_mentions():
 
 
 
-@sched.scheduled_job('interval', minutes=5)
-def timed_job():
-    check_mentions()
+# @sched.scheduled_job('interval', minutes=5)
+# def timed_job():
+#     check_mentions()
 
-sched.start()
+# sched.start()
