@@ -1,0 +1,2 @@
+clock: python bots.py
+
